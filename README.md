@@ -56,49 +56,70 @@ https://github.com/user-attachments/assets/5fd75bb6-e126-45d0-8a21-01ebb872336c
 
 ## 🚀 Getting Started
 
-### Clone the repository
+## 🛠 Installation
+
+Clone the repository
+
 ```bash
 git clone https://github.com/<your-username>/clima.git
 cd clima
+
+```
 Install dependencies
-bash
-Copy code
+
+```bash
 flutter pub get
-🔑 API Key Setup
-To use OpenWeatherMap API:
 
-1️⃣ Create a free account:
-https://openweathermap.org/
-2️⃣ Generate your API Key
-3️⃣ Open the file:
+```
 
-bash
-Copy code
+### 🔑 API Key Setup (Required)
+
+To fetch live weather data, add your own OpenWeatherMap API Key:
+
+1️⃣ Create a free account → https://openweathermap.org/
+
+2️⃣ Generate an API key
+3️⃣ Open file
+
+```bash
 lib/services/weather.dart
-4️⃣ Replace:
 
-dart
-Copy code
+```
+
+4️⃣ Replace this line with your actual API key
+
+```bash
 const apiKey = 'YOUR_API_KEY';
-📱 Running the App
-bash
-Copy code
+
+```
+
+### 📱 Running the App
+
+```bash
 flutter run
-Ensure Location permission is enabled 📍
 
-📌 Future Enhancements
-🔹 Dark mode support
-🔹 Animated background based on weather condition
-🔹 Weekly forecast (5-day/7-day)
-🔹 Multi-language support
+```
 
-🤝 Contributing
+### 📌 Future Enhancements
+
+🌙 Dark Mode Support
+
+🎬 Weather-based animated backgrounds
+
+📊 Weekly Forecast (5/7-day prediction)
+
+🌍 Multi-language localization
+
+### 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
-Feel free to open a PR or Issue 🙌
+Feel free to open a Pull Request or Issue 🙌
 
-⭐ Support
-If you like this project, please star ⭐ the repository!
-Your support motivates me to build more awesome apps ❤️
+### ⭐ Support
 
-📜 License
+If you like this project, please star ⭐ the repo!
+Your support motivates future improvements ❤️
+
+### 📜 License
+
 This project is licensed under the MIT License.
