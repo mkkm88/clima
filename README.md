@@ -78,7 +78,8 @@ To fetch live weather data, add your own OpenWeatherMap API Key:
 
 1️⃣ Create a free account → https://openweathermap.org/
 
-2️⃣ Generate an API key /n
+2️⃣ Generate an API key
+
 3️⃣ Open file
 
 ```bash
